@@ -5,7 +5,7 @@ Multi-algorithm cryptocurrency miner. This miner can utilize all resources provi
 
 # Usage
 1. Download  
-To download this miner, simly go to [Releases page(https://github.com/semtexzv/Prospector/releases) and download newest version for your platform. Currently supported platforms are 64bit Linux and Windows.  
+To download this miner, simly go to [Releases page](https://github.com/semtexzv/Prospector/releases) and download newest version for your platform. Currently supported platforms are 64bit Linux and Windows.  
 
 2. Unzip miner into directory of your choosing
 3. Run `prospector` or `prospector.exe`  
