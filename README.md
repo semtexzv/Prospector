@@ -41,9 +41,12 @@ measured:
 
 # Reasons you should use prospector
 
-This cryptocurrency miner is implemented in programming language called Rust. And was explicitly designed to support simultaneous mining on multiple pools with multiple devices. This choice will also allow easy and fast development of this miner. Just look into upcoming features :).
+1. Support for multiple coins
+2. Parallel CPU and GPU Mining
+3. Easy extendability, which means awesome future upgrades.
+4. Look into upcoming features.
 
-# Reasons you shouldn't use prospector
+# Reasons you might not want to use prospector
 
 One thing you might not like about this miner is that it dedicates small portion of your hashrate as a fee to the developers. Every 2 hours, miner connects to another mining pool under the developers account, and for 70 seconds, mines on this account. This means, that your effective hashrate will be about 0.97% lower, you will probably not even notice this decrease, but it helps funding the developers of this miner.
 
