@@ -35,7 +35,7 @@ measured:
 
 
 # Upcoming features
-1. Support of other coins, namely Sia, Dcr, Zcash on GPU and HodlCoin on CPU
+1. Support of other coins, namely Dcr, Zcash on GPU and HodlCoin on CPU
 2. More optimized OpenCL kernels 
 3. Open-source monitoring and control server implementation, that you can use to monitor your large scale mining operation.
 4. Mobile applications to use with monitoring server
