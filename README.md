@@ -13,7 +13,7 @@ To download this miner, simly go to [Releases page](https://github.com/semtexzv/
 This will generate example configuration file named `config.json` in current directory.
 
 4. Update configuration information.  
-You will probably want to replace pools and/or worker names associated with these pools. You can also disable cpu mining, or disable individual graphics cards.
+You will probably want to replace pools and/or worker names associated with these pools. You can also disable cpu mining, or disable individual graphics cards. More information is available on [wiki](https://github.com/semtexzv/Prospector/wiki/Configuration-File)
 
 5. Profit  
 Just start the miner, and let the money roll in :)
