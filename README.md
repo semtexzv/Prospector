@@ -1,4 +1,4 @@
-# Prospector
+# Prospector - Ethereum, Siacoin, Signatum, Monero miner
 Multi-algorithm cryptocurrency miner. This miner can utilize all resources provided by your mining rig. It mines on all your CPUs and GPUs. Currently, this miner is in alpha stage.
 List of supported coins and pools is available at: [Pools page](https://github.com/semtexzv/Prospector/wiki/Supported-pools)
 
