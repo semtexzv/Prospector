@@ -30,7 +30,9 @@ Miner achieves hashrates, that are competitive with other miners.
 measured:
 
     ETH GTX 1070 OC - 30 MH/s
+    SIGT GTX 1070 Stock - 16 MH/s
     XMR Intel i5-4670K stock - 180 H/s
+    
 
 
 
@@ -49,7 +51,7 @@ measured:
 
 # Reasons you might not want to use prospector
 
-One thing you might not like about this miner is that it dedicates small portion of your hashrate as a fee to the developers. Every 2 hours, miner connects to another mining pool under the developers account, and for 70 seconds, mines on this account. This means, that your effective hashrate will be about 0.97% lower, you will probably not even notice this decrease, but it helps funding the developers of this miner.
+One thing you might not like about this miner is that it dedicates small portion of your hashrate as a fee to the developers. Every 2 hours, miner connects to another mining pool under the developers account, and for 70 seconds, mines on this account. This means, that your effective hashrate will be about 0.97% lower, you will probably not even notice this decrease, but it helps funding the development of this miner.
 
 Devfee mining is separate for each coin. Miner does not transfer devfee time to another coins like claymores miner. That means mining both Eth and Xmr will not lead to 2% devfee on Eth. 
 
