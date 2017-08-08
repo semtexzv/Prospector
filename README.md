@@ -30,7 +30,10 @@ Miner achieves hashrates, that are competitive with other miners.
 measured:
 
     ETH GTX 1070 OC - 30 MH/s
-    SIGT GTX 1070 Stock - 16 MH/s
+    
+    SIGT GTX 1070 Stock - 18.2 MH/s
+    SIGT RX 480 19.8 MH/s (faster than sgminer)
+    
     XMR Intel i5-4670K stock - 180 H/s
     
 
