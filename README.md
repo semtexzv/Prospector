@@ -15,7 +15,7 @@ measured:
     
     XMR Intel i5-4670K stock - 180 H/s
     
-Currently this is the fastest SkunkHash miner on AMD cards.
+Currently this is the fastest Signatum SkunkHash miner on AMD cards.
     
 
 
