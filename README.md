@@ -3,27 +3,6 @@ Multi-algorithm cryptocurrency miner. This miner can utilize all resources provi
 List of supported coins and pools is available at: [Pools page](https://github.com/semtexzv/Prospector/wiki/Supported-pools)
 
 
-
-# Usage
-1. Download  
-To download this miner, simly go to [Releases page](https://github.com/semtexzv/Prospector/releases) and download newest version for your platform. Currently supported platforms are 64bit Linux and Windows.  
-
-2. Unzip miner into directory of your choosing
-3. Run `prospector` or `prospector.exe`  
-This will generate example configuration file named `config.json` in current directory.
-
-4. Update configuration information.  
-You will probably want to replace pools and/or worker names associated with these pools. You can also disable cpu mining, or disable individual graphics cards. More information is available on [wiki](https://github.com/semtexzv/Prospector/wiki/Configuration-File)
-
-5. Profit  
-Just start the miner, and let the money roll in :)
-
-# Alpha 
-Currently, the miner only supports OpenCL platform for GPU mining. You can still mine on both AMD and NVIDIA cards with one small caveat. Most ethash coins require large amounts of memory, and NVIDIA does not allow allocation of these larges portions of memory on windows, so for the time being, mining on nvidia cards is only advised on Linux.
-
-### Reporting issues
-When you encounter an issue with this miner, please open new Github issue with as much information as you can provide. You can also include the `info.db` file, that is created by miner. This file is a SQLite database that contains some information about mining sessions. It does not however contain any of your adresses, or pools on which you mine. You can inspect this file to ensure it does not contain sensitive information.
-
 # Hashrates
 Miner achieves hashrates, that are competitive with other miners.
 
@@ -36,14 +15,35 @@ measured:
     
     XMR Intel i5-4670K stock - 180 H/s
     
+Currently this is the fastest SkunkHash miner on AMD cards.
+    
 
+
+# Usage
+1. Download  
+To download this miner, simly go to [Releases page](https://github.com/semtexzv/Prospector/releases) and download newest version for your platform. Currently supported platforms are 64bit Linux and Windows.  
+
+2. Unzip miner into directory of your choosing
+3. Run `prospector` or `prospector.exe`  
+This will generate example configuration file named `config.toml` in current directory.
+
+4. Update configuration information.  
+You will probably want to replace pools and/or worker names associated with these pools. You can also disable cpu mining, or disable individual graphics cards. More information is available on [wiki](https://github.com/semtexzv/Prospector/wiki/Configuration-File)
+
+5. Profit  
+Just start the miner, and let the money roll in :)
+
+# Alpha 
+Currently, the miner only supports OpenCL platform for GPU mining. You can still mine on both AMD and NVIDIA cards with one small caveat. Most ethash coins require large amounts of memory, and NVIDIA does not allow allocation of these larges portions of memory on windows, so for the time being, mining on nvidia cards is only advised on Linux.
+
+### Reporting issues
+When you encounter an issue with this miner, please open new Github issue with as much information as you can provide. You can also include the `info.db` file, that is created by miner, and last entry from `logs` directory. The `info.db` file is a SQLite database that contains some information about mining sessions. It does not however contain any of your adresses, or pools on which you mine. You can inspect this file to ensure it does not contain sensitive information.
 
 
 # Upcoming features
 1. Support of other coins, namely Dcr, Zcash on GPU and HodlCoin on CPU
 2. More optimized OpenCL kernels 
-3. Open-source monitoring and control server implementation, that you can use to monitor your large scale mining operation.
-4. Mobile applications to use with monitoring server
+3. Better support for remote monitoring.
 
 # Reasons you should use prospector
 
