@@ -1,4 +1,4 @@
-# Prospector - Ethereum, Siacoin, Signatum, Monero miner
+# Prospector - Ethereum, Siacoin, Signatum, Monero and Zcash miner
 Multi-algorithm cryptocurrency miner. This miner can utilize all resources provided by your mining rig. It mines on all your CPUs and GPUs. Currently, this miner is in alpha stage.
 List of supported coins and pools is available at: [Pools page](https://github.com/semtexzv/Prospector/wiki/Supported-pools)
 
@@ -9,7 +9,7 @@ Miner achieves hashrates, that are competitive with other miners.
 measured:
 
     ETH GTX 1070 OC - 30 MH/s
-    
+    ZEC GTX 1070 OC - 380 - 400 SOL/s
     SIGT GTX 1070 Stock - 18.2 MH/s
     SIGT RX 480 19.8 MH/s (faster than sgminer)
     
@@ -39,11 +39,11 @@ Currently, the miner only supports OpenCL platform for GPU mining. You can still
 ### Reporting issues
 When you encounter an issue with this miner, please open new Github issue with as much information as you can provide. You can also include the `info.db` file, that is created by miner, and last entry from `logs` directory. The `info.db` file is a SQLite database that contains some information about mining sessions. It does not however contain any of your adresses, or pools on which you mine. You can inspect this file to ensure it does not contain sensitive information.
 
-
 # Upcoming features
-1. Support of other coins, namely Dcr, Zcash on GPU and HodlCoin on CPU
-2. More optimized OpenCL kernels 
+1. Support of other coins
+2. More optimized OpenCL and CUDA kernels 
 3. Better support for remote monitoring.
+4. Integrated web interface
 
 # Reasons you should use prospector
 
@@ -59,4 +59,4 @@ One thing you might not like about this miner is that it dedicates small portion
 Devfee mining is separate for each coin. Miner does not transfer devfee time to another coins like claymores miner. That means mining both Eth and Xmr will not lead to 2% devfee on Eth. 
 
 # Is this a virus ?
-No. One reason for false positives might be the fact that the executable is packed to prevent easy reverse engineering.
+No. One reason for false positives might be the fact that the executable is protected to prevent easy reverse engineering.
