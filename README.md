@@ -23,7 +23,6 @@ Currently this is the fastest Signatum SkunkHash miner on AMD cards.
 # Usage
 1. Download  
 To download this miner, simly go to [Releases page](https://github.com/semtexzv/Prospector/releases) and download newest version for your platform. Currently supported platforms are 64bit Linux and Windows.  
-
 Miner can be also found on MEGA [Download](https://mega.nz/#F!DtMHRIoI!2YzTj8u7UrSOeVCJZyFFjA).
 
 2. Unzip miner into directory of your choosing
